@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './component/layout/layout.component';
 import { MoviesComponent } from './component/movies/movies.component';
+import { SharedModuleModule } from '../app/shared-module/shared-module.module';
 
 const appRoutes: Routes = [
   {
