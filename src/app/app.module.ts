@@ -29,7 +29,8 @@ const appRoutes: Routes = [
     BrowserModule,
     RouterModule.forRoot(
       appRoutes
-    )
+    ),
+    SharedModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
